@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(shine.jpg.crdownload) no-repeat center center/cover;
+}
+.heading{
+    box-shadow: 0 0 100px rgba(0,0,0,0.5);
+    gap:30px;
+    padding:3rem;
+}
+.todo{
+     width:100%;
+     display: flex;
+     align-items: center;
+    
+    
+}
+.heading h2{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+ padding: 6% 3%;
+}
+.todo input{
+    border-radius: 15%;
+     padding: 8px;
+     border: 3px solid black;
+     justify-content: center;
+   
+}
+.todo button{
+    background-color: red;
+    padding: 8px;
+    color: white;
+    margin-left: 10px;
+    border-radius: 50%; 
+    cursor: pointer;
+    border: 3px solid black;
+}
+.todo button:hover{
+    background-color: green;
+    transform: scale(1.2);
+}
+.done {
+  text-decoration: line-through;
+  color: black;
+  opacity: 0.6;
+}
+
+#task {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+}
+ #task li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#task li button {
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+} 
+
+
+
+
